@@ -272,7 +272,7 @@ jobs:
 
       env:
         TEST_DB: default
-        DB_TEST_CONNECTION: sqlsrv
+        DB_DRIVER: sqlsrv
         DB_USER: SA
         DB_PASSWORD: Forge123
         DB_NAME: master
