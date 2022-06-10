@@ -1,0 +1,11 @@
+{% extends 'pages/abstract/default.html.twig' %}
+{#{% include 'navigation/nav-override.html.twig' %}#}
+
+{# Overrides blocks in head of base template #}
+{% block page_title %}Członkowie{% endblock %}
+
+{% block page_description %}Z życia klubu - członkowie o sobie{% endblock %}
+
+{% block body_matter %}
+    Witaj, {{ current_user.first_name }}!
+{% endblock %}
